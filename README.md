@@ -28,7 +28,7 @@ import pandas as pd
 I read the dataset using `read_csv()` to see the raw data.
 
 ```python
-df = pd.read_csv('amazon.csv')
+<a href = 'https://github.com/Pratibha1088/Task-1/blob/main/amazon.csv'>amazon</a>
 ```
 
 ---
