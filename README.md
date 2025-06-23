@@ -76,16 +76,6 @@ I made all column names lowercase and replaced spaces with underscores `_` to ma
 df.columns = df.columns.str.lower().str.strip().str.replace(' ', '_')
 ```
 
----
-
-### 7. Standardized Text (if needed)
-
-If any text columns had inconsistent formatting (like "Male" and "male"), I used `.str.lower()` and `.strip()` to fix them.
-
-```python
-# Example: df['gender'] = df['gender'].str.lower().str.strip()
----
-
 ### Exported the Cleaned Data
 
 Finally, I saved the cleaned dataset to a new file:
