@@ -12,9 +12,9 @@ I worked on the `amazon.csv` file and cleaned it step-by-step to make it ready f
 
 ---
 
-## 🧪 Steps I Performed 
+## Steps I Performed 
 
-### 1. 📥 Imported Libraries
+### 1. Imported Libraries
 I started by importing the necessary Python library — **Pandas** — which is used for data handling.
 
 ```python
@@ -33,7 +33,7 @@ df = pd.read_csv('amazon.csv')
 
 ---
 
-### 3. 👀 Checked the Data
+### 3. Checked the Data
 
 I used `.head()` to look at the first few rows and understand how the data looks.
 
@@ -78,7 +78,7 @@ df.columns = df.columns.str.lower().str.strip().str.replace(' ', '_')
 
 ---
 
-### 7. 🔠 Standardized Text (if needed)
+### 7. Standardized Text (if needed)
 
 If any text columns had inconsistent formatting (like "Male" and "male"), I used `.str.lower()` and `.strip()` to fix them.
 
@@ -94,7 +94,7 @@ Finally, I saved the cleaned dataset to a new file:
 df.to_csv('amazon_cleaned.csv', index=False)
 ```
 
-## 📚 What I Learned
+## What I Learned
 
 * How to clean raw data step-by-step using Pandas
 * How to deal with missing and duplicate values
@@ -103,7 +103,7 @@ df.to_csv('amazon_cleaned.csv', index=False)
 
 ---
 
-## 🧰 Tools Used
+## Tools Used
 
 * Python
 * Jupyter Notebook
